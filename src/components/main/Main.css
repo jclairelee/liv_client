@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URWBaskervilleW";
+  src: url("../../assets/fonts/URW-Baskerville-W01-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.main__category {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+.main__title {
+  display: flex;
+  justify-content: left;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+  padding-left: 8.75rem;
+  font-family: "Butler, Butler Stencil, Averta ";
+}
+.main__content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main__content__list {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+}
+.main__content__list__img {
+  flex: 2;
+  position: relative;
+}
+.main__content__list__img img {
+  width: 100%;
+  height: 14rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.main__content__list__text {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #383737;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.main__content__list__text-title {
+  color: #674207;
+}
+.main__content__list__text-title:hover {
+  color: #dc9117;
+}
+.main__content__list__text-title-content {
+  color: #674207;
+}
+.main__content__link {
+  text-decoration: none;
+}
+.main__content__link:visited {
+  color: #383737;
+}
+.main__categoryPg {
+  display: flex;
+  align-items: baseline;
+  margin-top: 3rem;
+  gap: 50%;
+}
+
+.btns {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e8a75e;
+  color: #e8a75e;
+}
+.btns:hover {
+  border: 1px solid white;
+  background-color: #dc9117;
+  color: white;
+}/*# sourceMappingURL=Main.css.map */

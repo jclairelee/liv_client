@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  justify-content: center;
+  color: #555;
+}
+.list-container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+.list-container__title {
+  display: flex;
+  justify-content: space-between;
+}
+.list-container__title button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.list-container table {
+  width: 100%;
+}
+.list-container table tr {
+  height: 50px;
+}
+.list-container table tr th {
+  text-align: left;
+}
+.list-container table tr td sup {
+  font-size: 12px;
+}
+.list-container table tr td .image {
+  width: 50px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.list-container table tr td .message {
+  width: 25px;
+  cursor: pointer;
+}
+.list-container table tr:nth-child(even) {
+  background-color: rgba(29, 191, 115, 0.0588235294);
+}/*# sourceMappingURL=PostsList.css.map */

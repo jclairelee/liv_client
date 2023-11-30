@@ -1,0 +1,76 @@
+// Mixin for Extra Small Devices (Phones)
+@mixin phone {
+  @media (max-width: 575.98px) {
+    @content;
+  }
+}
+
+// Mixin for Small Devices (Tablets)
+@mixin tablet {
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    @content;
+  }
+}
+
+// Mixin for Medium Devices (Laptops)
+@mixin laptop {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    @content;
+  }
+}
+
+// Mixin for Large Devices (Desktops)
+@mixin desktop {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    @content;
+  }
+}
+
+// Mixin for Extra Large Devices (XL Monitors)
+@mixin xl-monitor {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+.my-element {
+  // Your default styles that apply to all device sizes
+
+  @include phone {
+    // Styles specific to phones (extra small devices)
+  }
+
+  @include tablet {
+    // Styles specific to tablets (small devices)
+  }
+
+  @include laptop {
+    // Styles specific to laptops (medium devices)
+  }
+
+  @include desktop {
+    // Styles specific to desktops (large devices)
+  }
+
+  @include xl-monitor {
+    // Styles specific to extra large monitors
+  }
+}
+// @include bk.phone {
+//   // Styles specific to phones (extra small devices)
+// }
+
+// @include bk.tablet {
+//   // Styles specific to tablets (small devices)
+// }
+
+// @include bk.laptop {
+//   // Styles specific to laptops (medium devices)
+// }
+
+// @include bk.desktop {
+//   // Styles specific to desktops (large devices)
+// }
+
+// @include bk.xl-monitor {
+//   // Styles specific to extra large monitors
+// }

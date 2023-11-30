@@ -1,0 +1,163 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 3rem;
+  transition: transform 0.2s ease-in-out;
+  font-family: "ui-sans-serif";
+  height: 20rem;
+
+  &-info {
+    width: 25%;
+    @include bk.phone {
+      padding-bottom: 3rem;
+      padding-bottom: 4rem;
+    }
+
+    &__name {
+      color: white;
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+    &__navi {
+      margin-top: 1rem;
+      &__menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+      }
+
+      &__menu-list {
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        transition: color 0.2s;
+
+        &:hover {
+          color: cl.$accent;
+          transform: translateY(-5px);
+        }
+      }
+    }
+    &__sns {
+      color: white;
+      gap: 1rem;
+      display: flex;
+    }
+  }
+
+  &-userForm {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    @include bk.phone {
+      display: none;
+    }
+    @include bk.tablet {
+      display: none;
+    }
+    @include bk.desktop {
+      width: 30%;
+    }
+    &__subsc {
+      flex: 1;
+      color: white;
+      margin-right: 20px;
+
+      &-header {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      &-subtitle {
+        font-size: 14px;
+      }
+    }
+
+    &__form {
+      flex: 2;
+      display: flex;
+      flex-wrap: wrap;
+      // gap: 10px;
+
+      &-email,
+      &-name {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+      &-email {
+        width: 100%;
+        padding: 10px;
+        margin: 1rem 0;
+      }
+      &-name {
+        width: 75%;
+        padding: 10px;
+      }
+      &-btn {
+        padding: 10px 20px;
+        background-color: cl.$accent;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.2s;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        &:hover {
+          background-color: #449c37;
+        }
+      }
+    }
+  }
+
+  &-about {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 25%;
+    gap: 0.75rem;
+    @include bk.phone {
+      display: none;
+    }
+    @include bk.tablet {
+      display: none;
+    }
+    @include bk.laptop {
+      display: none;
+    }
+    @include bk.desktop {
+      display: flex;
+    }
+    &__title {
+      font-size: 1.08rem;
+      font-weight: 500;
+    }
+    &__intro {
+      font-size: 0.955rem;
+      line-height: 1.135rem;
+    }
+
+    &__copyright {
+      font-size: 0.8rem;
+    }
+  }
+}

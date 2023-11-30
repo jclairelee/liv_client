@@ -1,0 +1,53 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints";
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: cl.$mainLight;
+
+  &__title {
+    font-size: 1.75rem;
+    color: cl.$base;
+    margin-bottom: 1.25rem;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    gap: 20px;
+
+    &__username {
+      padding: 0.75rem;
+      border: none;
+      background-color: cl.$mainLight;
+      border-bottom: 1px solid gray;
+      &::placeholder {
+        font-size: 0.88rem;
+      }
+    }
+    &__email {
+      @extend .auth__form__username;
+    }
+    &__password {
+      @extend .auth__form__username;
+    }
+    &__btn {
+      padding: 0.75rem;
+      border: none;
+      background-color: cl.$accent;
+      cursor: pointer;
+      color: cl.$lightText;
+      font-size: 0.9rem;
+    }
+    &__option {
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+}

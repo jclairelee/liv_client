@@ -1,0 +1,69 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/mixin" as mx;
+
+.navbar {
+  @include bk.phone {
+    display: none !important;
+  }
+  @include bk.tablet {
+    display: none !important;
+  }
+
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  width: 100vw;
+
+  &__container {
+    width: 100vw;
+    padding: 10px 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid cl.$optionalBaseOne;
+    border-top: 1px solid cl.$optionalBaseOne;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+
+    &__item {
+      font-size: 0.89rem;
+      font-weight: 300;
+    }
+    &__link {
+      text-decoration: none;
+      list-style-type: none;
+      color: cl.$optionalBaseOne;
+      &:hover {
+        background-color: #e8a75e;
+        color: white;
+      }
+    }
+
+    &__text {
+      cursor: pointer;
+    }
+
+    &__post {
+      background-color: cl.$accent;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 300;
+      border: 1px solid white;
+      &:hover {
+        color: cl.$mainLight;
+        background-color: cl.$optionalAccent;
+        border: 1px solid cl.$optionalAccent;
+      }
+    }
+  }
+}

@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URWBaskervilleW";
+  src: url("../../assets/fonts/URW-Baskerville-W01-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  height: 40px;
+  position: fixed;
+  width: 100vw;
+  background-color: #0a0a0a;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0 2rem;
+  font-weight: 300;
+  gap: 0 13px;
+  z-index: 1;
+}
+.header-top__left {
+  justify-content: left;
+  width: 80%;
+  display: flex;
+  gap: 1.25rem;
+}
+.header-top__right {
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  gap: 1.25rem;
+}
+.header-top__text {
+  margin: auto 0;
+}
+.header-top__link {
+  list-style-type: none;
+  list-style-type: none;
+}
+.header-top__link:visited {
+  list-style-type: none;
+  list-style-type: none;
+  color: white;
+}
+.header-top__link__container {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+}
+.header-bottom {
+  display: flex;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font: 1.75rem;
+  justify-content: center;
+  height: 13rem;
+  padding: 0 12rem;
+  width: 100vw;
+}
+@media (max-width: 575.98px) {
+  .header-bottom {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-bottom {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-bottom {
+    padding: 0 3rem;
+  }
+  .header-bottom :nth-child(1) {
+    order: 1;
+  }
+  .header-bottom :nth-child(2) {
+    order: 0;
+  }
+  .header-bottom :nth-child(3) {
+    order: 2;
+  }
+}
+.header-bottom__title {
+  margin: auto auto;
+  padding-top: 1.5rem;
+  margin: auto auto;
+  color: #0a0a0a;
+}
+.header-bottom__title:visited {
+  color: #0a0a0a;
+}
+.header-bottom__title-txt {
+  font-size: 2rem;
+}
+.header-bottom__title-mobileSize {
+  font-size: 2.5rem;
+}
+.header-bottom__titleBox {
+  display: flex;
+  width: 50%;
+}
+.header-bottom__subNav {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding-top: 1.25rem;
+  justify-content: space-between;
+  margin: 0 2rem;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-family: "Butler, Butler Stencil, Averta";
+}
+.header-bottom__subNavLink {
+  text-decoration: none;
+}
+.header-bottom__subNav__menu {
+  color: black;
+}
+.header-mobileBttm {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-mobileBttm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-mobileBttm {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .header-mobileBttm {
+    display: none !important;
+  }
+}
+.header-mobileBttm-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 1;
+}
+.header-mobileBttm-menuList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: hsl(0, 0%, 10%);
+  list-style-type: none;
+}
+.header-mobileBttm-menuList__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-mobileBttm-menuList__item-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 10%);
+  width: 20%;
+}
+.header-mobileBttm-menuList__item-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.logout,
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a,
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=Header.css.map */

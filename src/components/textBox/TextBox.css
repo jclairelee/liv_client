@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URWBaskervilleW";
+  src: url("../../assets/fonts/URW-Baskerville-W01-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.textBox {
+  width: 100vw;
+  background-color: #fdf5e7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.textBox-title {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  white-space: pre;
+  font-weight: 100;
+}
+@media (max-width: 575.98px) {
+  .textBox-title {
+    font-size: 1.25rem;
+    margin: 0;
+    align-items: center;
+    margin: auto auto;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .textBox-title {
+    font-size: 1.35rem;
+    margin: 0;
+    align-items: center;
+    margin: auto auto;
+    padding-bottom: 2rem;
+    width: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .textBox-title {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .textBox-title {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .textBox-title {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 5rem;
+  }
+}
+.textBox-content {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+@media (max-width: 575.98px) {
+  .textBox-content {
+    gap: 3rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .textBox-content {
+    gap: 3rem;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .textBox-content {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 3rem 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .textBox-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 3rem 5rem;
+  }
+}
+.textBox-content__text {
+  line-height: 1.75rem;
+  white-space: normal;
+}
+@media (max-width: 575.98px) {
+  .textBox-content__text {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .textBox-content__text {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+}
+.textBox-content__text__header {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 575.98px) {
+  .textBox-content__text__header {
+    display: none;
+  }
+}
+.textBox-content__text__message {
+  width: 100%;
+}
+.textBox-content__pic__matl {
+  width: 32rem;
+  height: 32rem;
+  -o-object-position: center;
+     object-position: center;
+  margin: auto auto;
+}
+@media (max-width: 575.98px) {
+  .textBox-content__pic__matl {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .textBox-content__pic__matl {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .message {
+    font-size: 1.15rem !important;
+    line-height: 1.35rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .message {
+    font-size: 1.5rem;
+    line-height: 1.56rem;
+  }
+}/*# sourceMappingURL=TextBox.css.map */

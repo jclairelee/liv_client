@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URWBaskervilleW";
+  src: url("../../assets/fonts/URW-Baskerville-W01-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.comment {
+  display: block;
+  margin-bottom: 3rem;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .commentContainer {
+    padding: 1.5rem 0rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .commentContainer {
+    margin: 0;
+  }
+}
+.comment__user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 60%;
+  font-family: averta;
+}
+.comment__user__img {
+  background-color: #e8a75e;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .comment__user__img {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .comment__user__img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+.comment__user__name {
+  color: #0a0a0a;
+  font-size: 1.25rem;
+  font-family: averta;
+}
+.comment__user__date {
+  color: #0a0a0a;
+  font-family: averta;
+}
+.comment__btn {
+  display: flex;
+  background-color: white;
+  border: none;
+}
+.comment__text {
+  margin-top: 0.5rem;
+  font-family: averta;
+}
+.comment__text__msg {
+  font-family: averta;
+  width: 40%;
+}/*# sourceMappingURL=Comments.css.map */

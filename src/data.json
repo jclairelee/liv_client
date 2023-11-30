@@ -1,0 +1,64 @@
+{
+  "mediaData": [
+    {
+      "header": "Gordon Ramsay's Ultimate Home Cooking",
+      "link": "https://www.youtube.com/embed/7u3pq1ZUSa0",
+      "title": "Mouth-Watering SPICY Recipes",
+      "desc": "Embark on a culinary journey with Gordon Ramsay, the maestro of flavor, in this 'Mouth-Watering SPICY Recipes' episode of 'Ultimate Home Cooking.' Gordon invites you into his kitchen to master the art of infusing dishes with tantalizing spices, transforming everyday meals into extraordinary culinary experiences. From zesty curries to fiery salsas, these recipes promise to tantalize your taste buds and add a spicy kick to your home-cooked creations. Learn from one of the world's most renowned chefs and elevate your cooking skills with a dash of spice and an abundance of flavor."
+    },
+    {
+      "header": "Tesco with Jamie Oliver",
+      "link": "https://www.youtube.com/embed/wg29VfHVRMc",
+      "title": "Jamie’s Speedy Mushroom Pasta",
+      "desc": "Join acclaimed chef Jamie Oliver in his kitchen as he expertly guides you through crafting 'Jamie's Speedy Mushroom Pasta.' In this delightful recipe, Jamie showcases how to create a mouthwatering mushroom pasta dish, quick, easy, and brimming with flavor. With his signature simplicity and culinary finesse, Jamie reveals the secrets to perfectly cooked mushrooms and a creamy pasta sauce that will tantalize your taste buds. Whether you're an experienced cook or just starting out, this speedy recipe is destined to become a weeknight favorite. Prepare to relish a homemade meal that's both comforting and exceptionally delicious, thanks to Jamie Oliver's culinary mastery."
+    },
+    {
+      "header": "Barefoot Contessa",
+      "link": "https://www.youtube.com/embed/EpDbcdDJPRU",
+      "title": "Coq Au Vin",
+      "desc": "Indulge in the culinary magic of Ina Garten, the Barefoot Contessa, as she takes you on a delightful journey to prepare the classic French dish 'Coq Au Vin.' In this delectable video, Ina's warm and inviting style shines as she shares her passion for creating this timeless chicken and wine stew. With her expert guidance, you'll learn the secrets behind achieving tender, succulent chicken and a rich, wine-infused sauce. Join Ina in her charming kitchen and discover the art of French cuisine, right from the comfort of your home. Get ready to savor the flavors of 'Coq Au Vin' and be inspired by Ina's culinary expertise."
+    }
+  ],
+  "picsData": [
+    {
+      "header": "Bread",
+      "link": "italianPizza.jpg",
+      "title": "Delicious Italian Pizza",
+      "desc": "Indulge in the mouthwatering flavors of this Italian pizza, featuring a perfectly crispy crust topped with a rich tomato sauce, fresh mozzarella cheese, and your favorite toppings. It's a true taste of Italy in every bite."
+    },
+    {
+      "header": "Lamb",
+      "link": "lamb_dhansak.jpg",
+      "title": "Savory Lamb Dhansak",
+      "desc": "Experience the culinary delight of our savory Lamb Dhansak. This dish combines tender pieces of lamb with a fragrant Dhansak curry, blending spices and herbs for a symphony of flavors that will transport your taste buds to India."
+    },
+    {
+      "header": "Chicken",
+      "link": "roastedChicken.jpg",
+      "title": "Crispy Roasted Chicken",
+      "desc": "Savor the crispy perfection of our Roasted Chicken. The skin is wonderfully crispy while the meat inside remains tender and juicy. With a medley of herbs and spices, it's a dish that's sure to impress."
+    },
+    {
+      "header": "Chicken",
+      "link": "tandoori.jpg",
+      "title": "Tandoori Chicken Delight",
+      "desc": "Embark on a culinary journey with our Tandoori Chicken Delight. This dish features succulent chicken marinated in a blend of aromatic spices and yogurt, then roasted to perfection in a tandoor. The result is a smoky, flavorful delight that's a favorite in Indian cuisine."
+    }
+  ],
+  "textData": {
+    "title": "Welcome to Liv Inspiration!\nHome to all our recipes, videos, and books.",
+    "title2": "Unlock Your Dream Lifestyle",
+    "title3": "Explore Your Creativity with Global Design Masters",
+    "content": "Welcome to Liv Inspiration!\n\nYou're not just a guest here; you're a cherished member of our thriving community. We are the place where individuals generously share their wisdom, practical tips, and mouthwatering recipes, transforming every day into a source of inspiration. We firmly believe that each person possesses the potential to inspire others. Together, we foster a nurturing and empowering environment, where your house becomes the dream haven you've always envisioned.\n\nLiv Inspiration transcends the boundaries of a typical website; it's a sanctuary of shared experiences where creativity thrives, and every moment is celebrated. Here, you can explore our extensive recipe collection, savor inspiring videos, and delve into our rich selection of books. But most importantly, we invite you to actively participate in this ever-evolving wellspring of inspiration.\n\nYour journey with Liv Inspiration is just beginning. We are here to empower, uplift, and connect you with like-minded individuals who, like you, seek to infuse life with positivity, warmth, and a sprinkle of enchantment. By joining our community, you'll not only inspire but also be inspired, leading to a life filled with brightness and magic.\n\nAt Liv Inspiration, we believe in making life vibrant and lively. It's about finding inspiration in everyday moments, and we're here to help you do just that. So step inside, begin your exploration, and let Liv Inspiration be your steadfast companion on the path to creating a home that's not just a dream but a dream come true. We can't wait for you to experience all that Liv Inspiration has to offer. Big love and enjoy your journey with us!",
+    "content2": "Embark on a captivating journey with 'Lively Living Inspiration.' Discover the secrets of crafting a home that mirrors your style, simplifying daily life, and embracing culinary artistry. Dive into the world of home decor, where elegance and comfort unite. Explore efficient cleaning methods for an organized, sparkling home. Indulge your palate with a treasure trove of recipes, transforming your kitchen into a culinary haven. Join us for this extraordinary adventure, where each page promises a life filled with vibrancy and harmony. Let's embark together on the path to uncovering the essence of 'Lively Living Inspiration.'",
+    "content3": "Ready to embark on a creative journey that transcends boundaries? Join our hands-on worldwide DIY workshop led by experienced design masters. Create your own stunning projects with expert guidance and learn essential DIY skills from woodworking to upholstery. Gain global design insights, infuse your creations with worldwide aesthetics, and discover sustainable crafting practices. Interactive workshops will equip you with the confidence to undertake DIY projects, and your creations will be part of a design showcase. Don't miss this opportunity to let your creativity flourish! ",
+    "boxStyle": {
+      "display": "flex",
+      "justifyContent": "center",
+      "margin": "auto auto"
+    },
+    "middleBoxStyle": {
+      "flexDirection": "row-reverse"
+    }
+  }
+}

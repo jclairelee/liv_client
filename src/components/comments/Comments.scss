@@ -1,0 +1,64 @@
+@use "../../styles/partials/colors" as cl;
+@use "../../styles/partials/breakpoints" as bk;
+@use "../../styles/partials/global";
+@use "../../styles/partials/fonts";
+
+.comment {
+  display: block;
+  margin-bottom: 3rem;
+  &Container {
+    @include bk.tablet {
+      padding: 1.5rem 0rem;
+    }
+    @include bk.desktop {
+      margin: 0;
+    }
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+    font-family: averta;
+
+    &__img {
+      background-color: cl.$optionalAccent;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      object-fit: cover;
+
+      @include bk.tablet {
+        width: 2.75rem;
+        height: 2.75rem;
+      }
+      @include bk.desktop {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+
+    &__name {
+      color: cl.$base;
+      font-size: 1.25rem;
+      font-family: averta;
+    }
+    &__date {
+      color: cl.$base;
+      font-family: averta;
+    }
+  }
+  &__btn {
+    display: flex;
+    background-color: white;
+    border: none;
+  }
+  &__text {
+    margin-top: 0.5rem;
+    font-family: averta;
+    &__msg {
+      font-family: averta;
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_ExtraBold.otf") format("otf");
+  font-weight: extraBold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Black_Stencil.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Medium.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Regular_Stencil.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler Stencil";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light_Stencil.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../../assets/Butler-Font/Butler_Ultra_Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-Regular.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff2") format("woff2"), url("../../assets/sub_fonts/AvertaDemo-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "URWBaskervilleW";
+  src: url("../../assets/fonts/URW-Baskerville-W01-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  font-family: "Butler, Butler Stencil, Averta ";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.mediaList {
+  display: flex;
+  padding: 5rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mediaList {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mediaList {
+    justify-content: space-between;
+    padding: 5rem;
+  }
+}
+.mediaList-innerBox {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 575.98px) {
+  .mediaList-innerBox {
+    width: 70%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mediaList-innerBox {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mediaList-innerBox {
+    width: 70%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mediaList-innerBox {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .mediaList-innerBox {
+    width: 30%;
+  }
+}
+.mediaList-header {
+  margin-bottom: 2rem;
+}
+.mediaList-media {
+  display: flex;
+}
+.mediaList-media__inside {
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.mediaList-media__video {
+  width: 100%;
+}
+.mediaList-media__pic-file {
+  width: 20rem;
+}
+.mediaList-media__text {
+  font-size: 1.15rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.mediaList-media__text__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.mediaList-media__text__content {
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.message {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}/*# sourceMappingURL=MediaList.css.map */
